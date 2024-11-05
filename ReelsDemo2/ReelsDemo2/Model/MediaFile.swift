@@ -10,7 +10,6 @@ import SwiftUI
 
 struct MediaFile: Codable {
     
-    //var id = UUID().uuidString
     var url: String?
     var title: String?
     var teaser: String?
@@ -18,6 +17,7 @@ struct MediaFile: Codable {
     var source: String?
 }
 
+/*
 var MediaFileJSON = [
     MediaFile(url: "https://res.cloudinary.com/dcxtnrjuy/video/upload/v1730192369/inmark_8_vh4joy.mp4", title: "Apple Airtag...."),
     MediaFile(url: "https://res.cloudinary.com/dcxtnrjuy/video/upload/v1730192204/inmark_4_tfhzbz.mp4", title: "omg.....animal crossing"),
@@ -26,4 +26,4 @@ var MediaFileJSON = [
     MediaFile(url: "https://res.cloudinary.com/dcxtnrjuy/video/upload/v1730192194/inmark_5_zja4vw.mp4", title: "I have been creating more vertical 30 second content"),
     MediaFile(url: "https://res.cloudinary.com/dcxtnrjuy/video/upload/v1730192193/inmark_7_rlgk8s.mp4", title: "The brand new Apple tower theatre opens"),
 ]
-
+*/
